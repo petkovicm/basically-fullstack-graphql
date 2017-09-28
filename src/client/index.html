@@ -6,10 +6,10 @@
   </head>
   <body>
     <main class="app" id="app">
-      <h1>Search for Recipes</h1>
+      <h1>Search For Recipes</h1>
       <div class="app__search-container">
         <form v-on:submit.prevent="search">
-          <input class="input app__search-field" type="text" placeholder="Put an ingredient in here..." v-model="query">
+          <input class="input app__search-field" type="text" placeholder="Type here..." v-model="query">
           <button class="button app__search-button" type="button" v-on:click="search">Search</button>
         </form>
       </div>
